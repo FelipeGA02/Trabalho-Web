@@ -1,0 +1,66 @@
+header {
+    background-image: url('../Imagens/Header.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+
+header h1 {
+    color: white;
+    font-family: var(--fonteTitulo);
+    text-align: center;
+    font-size: 5em;
+}
+
+.links1 {
+    display: flex;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: var(--cor04);
+    padding: 15px; 
+}
+
+.links1 a {
+    color: white;
+    font-size: large;
+}
+
+.links1 a:hover {
+    color: black;
+}
+
+nav {
+    background-color: var(--cor03);
+    padding: 10px 0px 0px 10px;
+}
+
+.sumario {
+    position: sticky;
+    top: 80px;
+}
+
+nav h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav li {
+    padding: 6px 0px 10px 0;
+}
+
+nav a {
+    color: black;
+    font-size: large;
+}
+
+nav a:hover {
+    color: white;
+}

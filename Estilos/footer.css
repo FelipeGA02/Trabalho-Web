@@ -1,0 +1,30 @@
+footer {
+    background-color: var(--cor04);
+    color: white;
+    text-align: justify;
+    font-size: 1.2em;
+    padding: 5px;
+    text-align: center;
+}
+
+footer h3 {
+    font-family: var(--fonteTitulo);
+}
+
+footer p {
+    font-family: var(--fonteTexto);
+    font-size: 0.8em;
+    line-height: 1.5em;
+    margin: 5px;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+footer a {
+    text-decoration: underline;
+    color: white;
+    font-weight: bolder;
+}

@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+.lista2, .lista3 {
+    display: flex;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.lista2 {
+    background-color: var(--cor01);
+}
+
+.lista3 {
+    background-color: var(--cor00);
+}
+
+div.lista2 > p, div.lista3 > p  {
+    text-align: center;
+}
+
+@media (max-width: 692px) {
+    .lista2, .lista3 {
+        display: block;
+    }
+    img {
+        display: block;
+        margin: auto;
+    }
+}
