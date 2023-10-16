@@ -10,13 +10,6 @@ header {
     flex-direction: column-reverse;
 }
 
-header h1 {
-    color: white;
-    font-family: var(--fonteTitulo);
-    text-align: center;
-    font-size: 5em;
-}
-
 .links1 {
     display: flex;
     position: fixed;

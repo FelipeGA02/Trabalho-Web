@@ -34,10 +34,20 @@ ol.lista {
     grid-area: footer;
 }
 
+header h1 {
+    color: white;
+    font-family: var(--fonteTitulo);
+    text-align: center;
+    font-size: 3em;
+}
+
 @media (min-width: 768px) {
     .container {
         display: grid;
         grid-template-areas: "header header" "navigation content" "footer footer";
         grid-template-columns: 290px 1fr;
+    }
+    header h1{
+        font-size: 5em;
     }
 }
